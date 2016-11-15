@@ -4,7 +4,8 @@
   "description": "JavaScript client for the Leap Motion Controller",
   "main": "lib",
   "scripts": {
-    "test": "make test-node test-integration"
+    "test": "make test-node test-integration",
+    "lint": "eslint lib/*.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,8 @@
   "devDependencies": {
     "browserify": "2.25.0",
     "chai": "~1.9.0",
+    "eslint": "^3.10.1",
+    "eslint-config-google": "^0.7.0",
     "grunt": "~0.4.4",
     "grunt-banner": "~0.2.2",
     "grunt-browserify": "~2.0.1",
